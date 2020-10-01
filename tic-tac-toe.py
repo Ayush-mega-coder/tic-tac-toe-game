@@ -90,9 +90,9 @@ while True:
     player1_marker,player2_marker = player_input()
     
     turn = choose_first()
-    print(turn + 'will go first')
+    print(turn +' will go first')
     
-    play_game = input('Ready to play? y or n?')
+    play_game = input('Ready to play? y or n? ')
     
     if play_game == 'y':
         game_on = True
